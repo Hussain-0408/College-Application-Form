@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <title>COLLEGE APPLICATION</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <form>
+
+            <!--this is a article section-->
+            <section>
+                <h2>College Application</h2>
+                <p>Fill out the form to apply to our college</p>
+            </section>
+
+            <!--applicant's section-->
+            <section>
+                <label for="name">Apllicant Name</label>
+                <input type="text" id="name" name="Your Name" placeholder="Your Name" required>
+            </section>
+
+            <!--Email Address section-->
+            <section>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="Your Email" placeholder="you@example.com" required>
+            </section>
+
+            <!--Phone Number section-->
+            <section>
+                <label for="phone number">Phone Number</label>
+                <input type="text" id="phone number" name="Phone Number">
+            </section>
+
+            <!--Date of Birth section-->
+            <section>
+                <label for="dateofbirth">Date of Birth</label>
+                <div class="dob">
+                    <select name="day" id="dateofbirth" required>
+                        <option value="" disabled selected hidden>Day</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                        <option value="">13</option>
+                        <option value="">14</option>
+                        <option value="">15</option>
+                        <option value="">16</option>
+                        <option value="">17</option>
+                        <option value="">18</option>
+                        <option value="">20</option>
+                        <option value="">21</option>
+                        <option value="">22</option>vv<option value="">23</option>
+                        <option value="">24</option>
+                        <option value="">25</option>
+                        <option value="">26</option>
+                        <option value="">27</option>
+                        <option value="">28</option>
+                        <option value="">29</option>
+                        <option value="">30</option>
+                        <option value="">31</option>
+                    </select>
+                    <select name="month" id="dateofbirth">
+                        <option value="" disabled hidden selected>Month</option>
+                        <option value="">January</option>
+                        <option value="">February</option>
+                        <option value="">March</option>
+                        <option value="">April</option>
+                        <option value="">May</option>
+                        <option value="">June</option>
+                        <option value="">July</option>
+                        <option value="">August</option>
+                        <option value="">September</option>
+                        <option value="">October</option>
+                        <option value="">November</option>
+                        <option value="">December</option>
+                    </select>
+                    <select name="year" id="">
+                        <option value="" disabled hidden selected>Year</option>
+                        <option value="">1998</option>
+                        <option value="">1999</option>
+                        <option value="">2000</option>
+                    </select>
+                </div>
+            </section>
+
+            <!--Drop box section-->
+            <label for="major">Desired Major</label>
+            <select name="desired major" id="major">
+                <option value="major" disabled selected hidden>Select a major</option>
+                <option value="hello">CSE</option>
+                <option value="">AI/ML</option>
+                <option value="">Data science</option>
+                <option value="">ECE</option>
+                <option value="">MCA</option>
+            </select>
+
+            <!--Comment section-->
+            <section>
+                <label for="bio">Short Bio</label>
+                <textarea id="bio" name="comment" placeholder="Tell us about yourself"></textarea>
+            </section>
+
+            <!-- Button section -->
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+</body>
+
+</html>

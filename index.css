@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+
+p {
+    margin-top: 0;
+    color: #555;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 12px 0 6px;
+    margin-bottom: 8px;
+
+}
+
+input,
+select,
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+    height: 90px;
+}
+
+.dob {
+    display: flex;
+    gap: 8px;
+}
+
+.dob select {
+    flex: 1;
+}
+
+button {
+    margin-top: 18px;
+    background: #2563eb;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: #1e4ed8;
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    input,
+    select,
+    textarea,
+    button {
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+
+    .dob {
+        flex-direction: column;
+        /* stack day, month, year vertically on mobile */
+    }
+}

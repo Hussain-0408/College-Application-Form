@@ -72,7 +72,7 @@ button {
 button:hover {
     background: #1e4ed8;
 }
-
+/* resposive media queries */
 @media (max-width: 600px) {
     .form-container {
         padding: 20px;

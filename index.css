@@ -6,9 +6,11 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    border: red 1px solid;
 }
 
 .form-container {
+    border: red 2px solid;
     background: #fff;
     padding: 30px;
     border-radius: 12px;
@@ -18,7 +20,7 @@ body {
 }
 
 h2 {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     margin-top: 0px;
 }
 
@@ -62,7 +64,7 @@ textarea {
 
 button {
     margin-top: 18px;
-    background: #2563eb;
+    background: lightblue;
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -70,7 +72,7 @@ button {
 }
 
 button:hover {
-    background: #1e4ed8;
+    background: #bd0f20;
 }
 /* resposive media queries */
 @media (max-width: 600px) {
